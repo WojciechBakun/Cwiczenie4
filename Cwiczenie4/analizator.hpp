@@ -4,11 +4,11 @@
 
 class Analizator{
 public:
-    double dlugosc (const Sygnal& sygnal);
-    double minimum (const Sygnal& sygnal);
-    double maksimum (const Sygnal& sygnal);
-    double srednia (const Sygnal& sygnal);
-    double calka (const Sygnal& sygnal);
+    double Dlugosc (const Sygnal& sygnal);
+    double Minimum (const Sygnal& sygnal);
+    double Maksimum (const Sygnal& sygnal);
+    double Srednia (const Sygnal& sygnal);
+    double Calka (const Sygnal& sygnal);
 };
 
 #endif

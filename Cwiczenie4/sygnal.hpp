@@ -5,8 +5,7 @@
 
 using namespace std;
 class Sygnal{
-private:
-    typedef vector<Probka>;
+    vector<Probka> probka;
 public:
     Sygnal();
     void dodajProbke(const Probka& p);
