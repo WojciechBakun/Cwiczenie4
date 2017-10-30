@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="sygnaly.csv" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -30,9 +31,22 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="analizator.cpp" />
+		<Unit filename="analizator.hpp" />
+		<Unit filename="loader.cpp" />
+		<Unit filename="loader.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="out.csv" />
+		<Unit filename="probka.cpp" />
+		<Unit filename="probka.hpp" />
+		<Unit filename="sygnal.cpp" />
+		<Unit filename="sygnal.csv" />
+		<Unit filename="sygnal.hpp" />
+		<Unit filename="sygnal.ods" />
+		<Unit filename="sygnal.xlsx" />
 		<Extensions>
 			<code_completion />
 			<envvars />
