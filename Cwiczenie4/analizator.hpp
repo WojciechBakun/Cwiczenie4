@@ -1,6 +1,7 @@
 #ifndef analizator_hpp
 #define analizator_hpp
 #include <iostream>
+#include "sygnal.hpp"
 
 class Analizator{
 public:

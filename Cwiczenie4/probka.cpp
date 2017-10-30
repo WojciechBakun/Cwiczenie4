@@ -1,4 +1,5 @@
 #include "probka.hpp"
+#include <iostream>
 
 Probka::Probka(){
     t=t1;

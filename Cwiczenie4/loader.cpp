@@ -1,4 +1,5 @@
 #include "loader.hpp"
+#include <iostream>
 
 typedef vector<Probka> Sygnal;
 Sygnal wczytaj (string nazwa_pliku)

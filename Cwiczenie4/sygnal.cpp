@@ -2,6 +2,7 @@
 #include "probka.hpp"
 #include "loader.hpp"
 #include "analizator.hpp"
+#include <iostream>
 
 using namespace std;
 
