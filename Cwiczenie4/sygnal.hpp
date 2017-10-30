@@ -2,6 +2,7 @@
 #define sygnal_hpp
 #include <iostream>
 #include <vector>
+#include "probka.hpp"
 
 using namespace std;
 class Sygnal{
