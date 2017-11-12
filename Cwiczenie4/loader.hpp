@@ -1,14 +1,17 @@
-#ifndef loader_hpp
-#define loeader_hpp
+#ifndef Loader_hpp
+#define Loader_hpp
+#include "Sygnal.hpp"
 #include <iostream>
+#include <string>
 
-using namespace std;
-
-class Loader{
+class Loader
+{
 public:
     Loader();
-    Sygnal wczytajSygnal(string nazwa_pliku);
-    void zapiszSygnal(Sygnal& sygnal, string nazwa_pliku);
+    Sygnal wczytaj(std::string nazwa_pliku);
+    void zapiszSygnal(Sygnal& sygnal,std::string nazwa_pliku);
+
 };
 
-#endif
+
+#endif // Loader_hpp

@@ -1,18 +1,19 @@
-#ifndef sygnal_hpp
-#define sygnal_hpp
+#ifndef Sygnal_hpp
+#define Sygnal_hpp
 #include <iostream>
+#include <string>
 #include <vector>
-#include "probka.hpp"
+#include "Probka.hpp"
 
-using namespace std;
 class Sygnal{
-    vector<Probka> probka;
+std::vector<Probka> probki;
 public:
     Sygnal();
     void dodajProbke(const Probka& p);
-    int iloscProbek();
+    int iloscProbek() const;
     Probka& operator[](int i);
-    friend ostream& operator<<( ostream& stream, const Sygnal& sygnal);
-    };
+    const Probka& operator[](int i) const;
+    friend std::ostream& operator<< (std::ostream& stream, const Sygnal& sygnal);
+};
 
-#endif
+#endif // sygnal_hpp

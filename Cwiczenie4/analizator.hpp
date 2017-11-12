@@ -1,15 +1,17 @@
-#ifndef analizator_hpp
-#define analizator_hpp
+#ifndef Analizator_hpp
+#define Analizator_hpp
+#include "Sygnal.hpp"
 #include <iostream>
-#include "sygnal.hpp"
+#include <string>
 
 class Analizator{
 public:
-    double Dlugosc (const Sygnal& sygnal);
-    double Minimum (const Sygnal& sygnal);
-    double Maksimum (const Sygnal& sygnal);
-    double Srednia (const Sygnal& sygnal);
-    double Calka (const Sygnal& sygnal);
+    Analizator();
+    double dlugosc(const Sygnal& sygnal);
+    double minimum (const Sygnal& sygnal);
+    double maksimum (const Sygnal& sygnal);
+    double srednia(const Sygnal& sygnal);
+    double calka(const Sygnal& sygnal);
 };
 
-#endif
+#endif // analizator_hpp

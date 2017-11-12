@@ -1,19 +1,15 @@
-#ifndef probka_hpp
-#define probka_hpp
+#ifndef Probka_hpp
+#define Probka_hpp
 #include <iostream>
-#include <fstream>
-#include <sstream>
 #include <string>
-#include <vector>
 
-using namespace std;
-
-class Probka{
-public:
-    double t, x;
+class Probka
+{
+    public:
+    double t,x;
     Probka();
-    Probka(double t, x);
-    friend ostream& operator<<(ostream& stream ,const Probka& probka);
+    Probka(double t1, double x1);
+    friend std::ostream& operator<<(std::ostream& stream,const Probka& probka );
 };
 
-#endif
+#endif // Probka_hpp

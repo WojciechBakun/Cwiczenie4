@@ -1,31 +1,41 @@
-#include "loader.hpp"
+#include "Loader.hpp"
 #include <iostream>
+#include <string>
+#include <fstream>
+#include <sstream>
 
-typedef vector<Probka> Sygnal;
-Sygnal wczytaj (string nazwa_pliku)
+using namespace std;
+
+Loader::Loader()
+{
+}
+Sygnal Loader::wczytaj(string nazwa_pliku)
 {
     Sygnal tablica;
     ifstream plik(nazwa_pliku);
     string linia;
-    while (getline(plik,linia))
+    while(getline(plik,linia))
     {
-        double x,t;
+
+        double x, t;
         stringstream ss(linia);
         ss>>t;
         ss.ignore();
         ss>>x;
         Probka probka1(t,x);
-        tablica.push_back(probka1);
+        tablica.dodajProbke(probka1);
     }
     plik.close();
     return tablica;
+
 }
-Loader::zapiszSygnal(string nazwa_pliku, Sygnal& sygnal)
+void Loader::zapiszSygnal(Sygnal& sygnal,string nazwa_pliku)
 {
-    ofstream zapis(nazwa_pliku);
-    for(int i=0;i<sygnal.size();i++)
+  ofstream zapis(nazwa_pliku);
+    for(int i=0;i<sygnal.iloscProbek();i++)
     {
         zapis<<sygnal[i].x<<" "<<sygnal[i].t<<endl;
     }
     zapis.close();
+
 }
