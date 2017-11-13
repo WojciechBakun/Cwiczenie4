@@ -19,3 +19,23 @@
 	<iostream>
 	<string>
 
+1510575735 source:c:\users\admin\documents\github\cwiczenie4\cwiczenie4\analizator.cpp
+	"Analizator.hpp"
+	<iostream>
+	<string>
+
+1510575666 c:\users\admin\documents\github\cwiczenie4\cwiczenie4\analizator.hpp
+	"Sygnal.hpp"
+	<iostream>
+	<string>
+
+1510575666 c:\users\admin\documents\github\cwiczenie4\cwiczenie4\sygnal.hpp
+	<iostream>
+	<string>
+	<vector>
+	"Probka.hpp"
+
+1510575666 c:\users\admin\documents\github\cwiczenie4\cwiczenie4\probka.hpp
+	<iostream>
+	<string>
+

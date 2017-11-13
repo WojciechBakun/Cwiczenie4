@@ -35,7 +35,7 @@ double Analizator::calka(const Sygnal& sygnal) {
     double calka = 0, dt = 0, dpole = 0;
     for (int i=1; i < sygnal.iloscProbek()-1; i++)
     {
-        dt = sygnal[i+1].x - sygnal[i].t;
+        dt = sygnal[i+1].t - sygnal[i].t;
         dpole = (sygnal[i].x + sygnal[i+1].x) * dt / 2;
         calka = calka + dpole;
     }
