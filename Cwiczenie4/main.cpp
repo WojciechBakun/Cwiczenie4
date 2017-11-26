@@ -21,6 +21,7 @@ int main(int argc, char*argv[])
     Analizator A1;
     S1=L1.wczytaj(argv[1]);
     L1.zapiszSygnal(S1,"out.csv");
+    cout<<endl<<"Dlugosc: "<<A1.dlugosc(S1);
     cout<<endl<<"Srednia: "<<A1.srednia(S1);
     cout<<endl<<"Minimum: "<<A1.minimum(S1);
     cout<<endl<<"Maksimum: "<<A1.maksimum(S1);

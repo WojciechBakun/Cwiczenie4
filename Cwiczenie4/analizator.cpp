@@ -3,6 +3,17 @@
 #include <string>
 
 Analizator::Analizator(){}
+double Analizator::dlugosc(const Sygnal& sygnal){
+	double mini = sygnal[1].x;
+    double maksi = sygnal[1].x;
+    for ( int i = 1; i < sygnal.iloscProbek()-2; i++ ){
+        if ( sygnal[i].x < mini )
+            mini = sygnal[i].x;
+        if ( sygnal[i].x > maksi )
+            maksi = sygnal[i].x;
+		}
+    return maksi - mini;
+}
 double Analizator::srednia (const Sygnal& sygnal) {
     double srednia = 0.0;
     for (int i = 0; i < sygnal.iloscProbek(); i++) {

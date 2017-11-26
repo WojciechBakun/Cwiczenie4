@@ -39,3 +39,35 @@
 	<iostream>
 	<string>
 
+1510500140 source:c:\users\wojci\onedrive\documents\github\cwiczenie4\cwiczenie4\loader.cpp
+	"Loader.hpp"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1510499681 c:\users\wojci\onedrive\documents\github\cwiczenie4\cwiczenie4\loader.hpp
+	"Sygnal.hpp"
+	<iostream>
+	<string>
+
+1510499893 c:\users\wojci\onedrive\documents\github\cwiczenie4\cwiczenie4\sygnal.hpp
+	<iostream>
+	<string>
+	<vector>
+	"Probka.hpp"
+
+1510499711 c:\users\wojci\onedrive\documents\github\cwiczenie4\cwiczenie4\probka.hpp
+	<iostream>
+	<string>
+
+1510499864 source:c:\users\wojci\onedrive\documents\github\cwiczenie4\cwiczenie4\probka.cpp
+	"Probka.hpp"
+	<iostream>
+	<string>
+
+1510499871 source:c:\users\wojci\onedrive\documents\github\cwiczenie4\cwiczenie4\sygnal.cpp
+	"Sygnal.hpp"
+	<iostream>
+	<string>
+
