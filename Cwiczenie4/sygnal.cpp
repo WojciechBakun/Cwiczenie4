@@ -1,3 +1,13 @@
+/**
+ * @file sygnal.cpp
+ * @author Wojciech Bakun
+ * @date 12-11-2017
+ *
+ * @brief Plik zrodlowy dla klasy Sygnal
+ *
+ * Plik zawiera
+ */
+
 #include "Sygnal.hpp"
 #include <iostream>
 #include <string>

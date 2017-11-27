@@ -1,3 +1,13 @@
+/**
+ * @file Analizator.cpp
+ * @author Wojciech Bakun
+ * @date 12-11-2017
+ *
+ * @brief Plik zrodlowy dla klasy Analizator
+ *
+ * Plik zawiera funkcje obliczajace dlugosc, srednia, minimalna wartosc i maksymalna oraz calke sygnalu.
+ */
+
 #include "Analizator.hpp"
 #include <iostream>
 #include <string>

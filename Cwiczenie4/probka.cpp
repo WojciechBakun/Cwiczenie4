@@ -1,3 +1,13 @@
+/**
+ * @file probka.cpp
+ * @author Wojciech Bakun
+ * @date 12-11-2017
+ *
+ * @brief Plik zrodlowy dla klasy Probka
+ *
+ * Plik zawiera
+ */
+
 #include "Probka.hpp"
 #include <iostream>
 #include <string>

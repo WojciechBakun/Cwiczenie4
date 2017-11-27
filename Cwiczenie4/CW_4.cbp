@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Option parameters="sygnal.csv" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
 			</Target>
@@ -35,13 +36,13 @@
 		</Compiler>
 		<Unit filename="Analizator.cpp" />
 		<Unit filename="Analizator.hpp" />
-		<Unit filename="Loader.cpp" />
-		<Unit filename="Loader.hpp" />
-		<Unit filename="Probka.cpp" />
-		<Unit filename="Probka.hpp" />
-		<Unit filename="Sygnal.cpp" />
-		<Unit filename="Sygnal.hpp" />
+		<Unit filename="loader.cpp" />
+		<Unit filename="loader.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="probka.cpp" />
+		<Unit filename="probka.hpp" />
+		<Unit filename="sygnal.cpp" />
+		<Unit filename="sygnal.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

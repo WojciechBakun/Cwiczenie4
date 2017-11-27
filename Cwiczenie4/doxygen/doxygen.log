@@ -1,0 +1,5 @@
+C:/Users/Admin/Documents/GitHub/Cwiczenie4/Cwiczenie4/Analizator.hpp:23: warning: argument 'dlugosc' of command @param is not found in the argument list of Analizator::Analizator()
+C:/Users/Admin/Documents/GitHub/Cwiczenie4/Cwiczenie4/Analizator.hpp:23: warning: argument 'minimum' of command @param is not found in the argument list of Analizator::Analizator()
+C:/Users/Admin/Documents/GitHub/Cwiczenie4/Cwiczenie4/Analizator.hpp:23: warning: argument 'maksimum' of command @param is not found in the argument list of Analizator::Analizator()
+C:/Users/Admin/Documents/GitHub/Cwiczenie4/Cwiczenie4/Analizator.hpp:23: warning: argument 'srednia' of command @param is not found in the argument list of Analizator::Analizator()
+C:/Users/Admin/Documents/GitHub/Cwiczenie4/Cwiczenie4/Analizator.hpp:23: warning: argument 'calka' of command @param is not found in the argument list of Analizator::Analizator()

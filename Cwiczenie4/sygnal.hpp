@@ -1,3 +1,12 @@
+/**
+ * @file sygnal.hpp
+ * @author Wojciech Bakun
+ * @date 12-11-2017
+ *
+ * @brief Plik naglowkowy dla klasy Sygnal
+ *
+ */
+
 #ifndef Sygnal_hpp
 #define Sygnal_hpp
 #include <iostream>
@@ -5,6 +14,10 @@
 #include <vector>
 #include "Probka.hpp"
 
+/**
+ * @class Sygnal
+ * @brief Reprezentuje
+ */
 class Sygnal{
 std::vector<Probka> probki;
 public:

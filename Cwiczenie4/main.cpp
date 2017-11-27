@@ -1,3 +1,13 @@
+/**
+ * @file main.cpp
+ * @author Wojciech Bakun
+ * @date 12-11-2017
+ *
+ * @brief Plik zrodlowy programu
+ *
+ * Plik zawiera wyswietlanie funkcji z analizatora w konsoli
+ */
+
 #include <iostream>
 #include <fstream>
 #include <sstream>

@@ -1,3 +1,13 @@
+/**
+ * @file loader.cpp
+ * @author Wojciech Bakun
+ * @date 12-11-2017
+ *
+ * @brief Plik zrodlowy dla klasy Loader
+ *
+ * Plik zawiera funkcje wczytujace dane z pliku (sygnalu) i zapisujace je w pliku o nazwie podanej w mainie.
+ */
+
 #include "Loader.hpp"
 #include <iostream>
 #include <string>
