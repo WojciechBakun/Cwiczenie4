@@ -14,7 +14,7 @@
 
 /**
  * @class Probka
- * @brief Reprezentuje operacje na wczytanej z sygnalu probce
+ * @brief Tworzy obiekt probki skladajacy sie z czasu (t) i wartosci probki (x)
  */
 class Probka
 {

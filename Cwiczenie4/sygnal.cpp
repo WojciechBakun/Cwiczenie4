@@ -5,7 +5,7 @@
  *
  * @brief Plik zrodlowy dla klasy Sygnal
  *
- * Plik zawiera
+ * Plik zawiera dodanie probki, policzenie probek.
  */
 
 #include "Sygnal.hpp"

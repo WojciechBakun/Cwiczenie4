@@ -20,6 +20,9 @@
 class Loader
 {
 public:
+    /**
+     * @brief Kontruktor.
+     */
     Loader();
     Sygnal wczytaj(std::string nazwa_pliku);
     void zapiszSygnal(Sygnal& sygnal,std::string nazwa_pliku);

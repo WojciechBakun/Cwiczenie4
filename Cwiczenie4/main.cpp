@@ -3,9 +3,9 @@
  * @author Wojciech Bakun
  * @date 12-11-2017
  *
- * @brief Plik zrodlowy programu
+ * @brief Plik glowny programu
  *
- * Plik zawiera wyswietlanie funkcji z analizatora w konsoli
+ * Buduje ogolne dzialanie programu
  */
 
 #include <iostream>

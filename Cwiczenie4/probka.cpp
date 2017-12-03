@@ -5,7 +5,7 @@
  *
  * @brief Plik zrodlowy dla klasy Probka
  *
- * Plik zawiera
+ * Opisuje metody probka.hpp
  */
 
 #include "Probka.hpp"

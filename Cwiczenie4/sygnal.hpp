@@ -16,7 +16,7 @@
 
 /**
  * @class Sygnal
- * @brief Reprezentuje
+ * @brief Reprezentuje dodanie probki, policzenie probek.
  */
 class Sygnal{
 std::vector<Probka> probki;
